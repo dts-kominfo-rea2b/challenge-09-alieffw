@@ -1,4 +1,32 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.card{
+  padding: 10px 60px;
+  background: #D8CCA3;
+  width: 400px;
+  display: flex;
+  height: fit-content;
+  flex-direction: row;
+  border-bottom: 2px dotted #87805E;
+}
+
+.card:last-child{
+  border-bottom: 10px dotted transparent;
+}
+
+.data-contact {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-contact{
+  height: 70px;
+  width: 70px;
 }
